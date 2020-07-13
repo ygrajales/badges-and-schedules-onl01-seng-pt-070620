@@ -9,7 +9,7 @@ def badge_maker(speakers)
 end
 
   
-def batch_badge_creator(speakers)
-  speaker_badges = []
+# def batch_badge_creator(speakers)
+#   speakers.collect{\
   
   
