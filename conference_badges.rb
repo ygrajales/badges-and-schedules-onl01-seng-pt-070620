@@ -13,4 +13,6 @@ end
   
  
 def assign_rooms(attendees)
-  attendees.collect{|name| "Hello, #{name}! You'll be assigned to room #{"
+  attendees.collect{|name| "Hello, #{name}! You'll be assigned to room 
+  #{attendees.index(name) + 1}!"}
+  
