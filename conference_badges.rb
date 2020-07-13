@@ -18,6 +18,12 @@ end
 
 
 def printer(attendees)
-  puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
+  
+  badges = batch_badge_creator(attendees)
+  rooms = assign_rooms(attendees)
+  
+  counter = 0
+  
+  while attendees.index
+  
 end
