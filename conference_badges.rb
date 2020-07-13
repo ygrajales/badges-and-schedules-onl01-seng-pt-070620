@@ -25,7 +25,7 @@ def printer(attendees)
   #number_of_attendees = attendees.size
   counter = 0
   
-  while counter < number_of_attendees
+  while counter < attendees.size
     puts badges[counter]
     puts rooms[counter]
     counter += 1 
